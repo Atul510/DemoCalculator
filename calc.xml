@@ -1,0 +1,43 @@
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/number1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/ripple_effect_numbers" />
+            <Button
+                android:id="@+id/number2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/ripple_effect_numbers" />
+            <Button
+                android:id="@+id/number3"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/ripple_effect_numbers" />
+            <Button
+                android:id="@+id/equal"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="="
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/ripple_effect_operation" />
+
+
+        </LinearLayout>
